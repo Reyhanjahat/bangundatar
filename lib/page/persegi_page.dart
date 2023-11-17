@@ -60,7 +60,7 @@ class PersegiPage extends StatelessWidget {
              padding: const EdgeInsets.all(8.0),
              child: ElevatedButton(onPressed: (){
                _persegiController.hitungkeliling();
-             }, child: Text("Hitung Keliling",style: TextStyle(color: Colors.purple),)),
+             }, child: Text("Hitung Keliling",style: TextStyle(color: Colors.purple,),)),
            ),
            Obx(() => Text(_persegiController.hasil.value, style: TextStyle(color: _persegiController.warna.value),))
          ],
