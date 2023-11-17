@@ -64,7 +64,7 @@ class PersegiPage extends StatelessWidget {
            ),
            Obx(() => Text(_persegiController.hasil.value, style: TextStyle(color: _persegiController.warna.value),))
          ],
-       ),
+       )
     );
   }
 }
