@@ -20,6 +20,12 @@ class PersegiPage extends StatelessWidget {
              "Persegi", style: TextStyle(color: Colors.black,),
            ),
          ),
+           Container(
+             decoration: BoxDecoration(
+               color: Colors.blue.shade300,borderRadius: BorderRadius.all(Radius.circular(10))
+             ),
+             margin: const EdgeInsets.all(8.0),
+           ),
            Padding(
              padding: const EdgeInsets.all(8.0),
              child: Text(
